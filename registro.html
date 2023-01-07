@@ -55,17 +55,17 @@
                 <fieldset>
                     <legend class="form__label">Dirección</legend>
                     <div class="input-container">
-			    <input name="cep" id="cep" class="input" type="text" placeholder="CEP" required pattern="[s\S\]{5, 30}" data-tipo="address">
+			    <input name="cep" id="cep" class="input" type="text" placeholder="CEP" required pattern="[\s\S]{5, 30}" data-tipo="address">
                         <label class="input-label" for="cep">Dirección completa</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="input-container">
-                        <input name="city" id="city" class="input" type="text" placeholder="Ciudad" required pattern="[s\S\]{15, 30}" data-tipo="city">
+                        <input name="city" id="city" class="input" type="text" placeholder="Ciudad" required pattern="[\s\S]{15, 30}" data-tipo="city">
                         <label class="input-label" for="city">Ciudad</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="input-container">
-                        <input name="state" id="state" class="input" type="text" placeholder="Estado" required pattern="[s\S\]{5, 30}" data-tipo="state">
+                        <input name="state" id="state" class="input" type="text" placeholder="Estado" required pattern="[\s\S]{5, 30}" data-tipo="state">
                         <label class="input-label" for="state">Estado</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
