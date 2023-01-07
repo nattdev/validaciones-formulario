@@ -45,7 +45,23 @@ const mensajesDeError = {
 		valueMissing: "El campo fecha no puede estar vacío",
 		customError: "Debe tener al menos 18 años de edad", 
 	},
-}
+	telephone: {
+		valueMissing: "El campo teléfono no puede estar vacío",
+		patternMismatch: "Tiene que contener 10 digitos del 1 al 9"
+	},
+	address: {
+		valueMissing: "El campo dirección no puede estar vacío",
+		patternMismatch: "Tiene que contener al menos 4 caracteres"
+	},
+	city: {
+		valueMissing: "El campo ciudad no puede estar vacío",
+		patternMismatch: "Tiene que contener al menos 4 caracteres"
+	},
+	state: {
+		valueMissing: "El campo state no puede estar vacío",
+		patternMismatch: "Tiene que contener al menos 4 caracteres"
+	},
+};
 
 function mostrarMensajeError(tipoDeInput, input){
 	let mensaje= "";
